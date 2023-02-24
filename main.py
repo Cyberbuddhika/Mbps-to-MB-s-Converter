@@ -1,0 +1,7 @@
+print("Welocme to Mbps to MB/s Converter")
+print("---------------------------------")
+mbps=float(input("Please enter the megabit per second (Mbps) value to convert to MB/s: "))
+MBs=round(mbps/8, 2)
+print(f"Your Internet speed is {MBs} MB/s")
+print("---------------------------------")
+print("Thank you for using Mbps to MB/s Converter")
